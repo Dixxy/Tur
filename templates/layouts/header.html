@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 <header>
     <div class="header-area ">
         <div id="sticky-header" class="main-header-area">
@@ -15,25 +16,21 @@
                         <div class="col-xl-6 col-lg-6">
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
-                                    <ul id="navigation">
+                                    <ul>
                                         <li class="{% if request.path == '/' %}active{% endif %}">
-                                            <a href="{% url 'pages:home' %}">Home</a>
-                                        </li>
-                                        <li class="{% if request.path == '/post/' %}active{% endif %}">
-                                            <a href="{% url 'pages:blog' %}">Blog</a>
+                                            <a href="{% url 'pages:home' %}">{% trans 'Home' %}</a>
                                         </li>
                                         <li class="{% if request.path == '/about/' %}active{% endif %}">
-                                            <a href="{% url 'pages:about' %}">About</a>
-                                        </li>
-                                        <li class="{% if request.path == '/elements/' %}active{% endif %}">
-                                            <a href="{% url 'pages:elements' %}">Elements</a>
+                                            <a href="{% url 'pages:about' %}">{% trans 'About' %}</a>
                                         </li>
                                         <li class="{% if request.path == '/contact/' %}active{% endif %}">
-                                            <a href="{% url 'pages:contact' %}">Contact</a>
+                                            <a href="{% url 'pages:contact' %}">{% trans 'Contacts' %}</a>
                                         </li>
-                                        <li>
-                                            <a href="#">pages <i class="ti-angle-down"></i>
-                                            </a>
+                                        <li class="{% if request.path == '/blog/' %}active{% endif %}">
+                                            <a href="{% url 'pages:blog' %}">{% trans 'Blog' %}</a>
+                                        </li>
+                                        <li class="{% if request.path == '/destination/' %}active{% endif %}">
+                                            <a href="{% url 'pages:destination' %}">{% trans 'Destination' %}</a>
                                         </li>
                                     </ul>
                                 </nav>

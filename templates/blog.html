@@ -1,14 +1,16 @@
 {% extends 'layouts/base.html' %}
 {% load static %}
 {% block content %}
+{% load i18n %}
+
 <!-- bradcam_area  -->
 <div class="bradcam_area bradcam_bg_4">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <div class="bradcam_text text-center">
-                    <h3>blog</h3>
-                    <p>Pixel perfect design with awesome contents</p>
+                    <h3>{% trans 'Blog' %}</h3>
+                    <p style="padding-top: 10px;">{% trans 'Pixel perfect design with awesome contents' %}</p>
                 </div>
             </div>
         </div>
@@ -28,19 +30,23 @@
                             <img class="card-img rounded-0" src="{% static 'img/blog/single_blog_1.png'%}" alt="">
                             <a href="#" class="blog_item_date">
                                 <h3>15</h3>
-                                <p>Jan</p>
+                                <p>{% trans 'Jan' %}</p>
                             </a>
                         </div>
 
                         <div class="blog_details">
                             <a class="d-inline-block" href="single-blog.html">
-                                <h2>Google inks pact for new 35-storey office</h2>
+                                <h2>{% trans 'Google inks pact for new 35-storey office' %}</h2>
                             </a>
-                            <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                he earth it first without heaven in place seed it second morning saying.</p>
+                            <p>
+                                {% blocktrans%}
+                                'That dominion stars lights dominion divide years for fourth have don't stars is that
+                                he earth it first without heaven in place seed it second morning saying.'
+                                {% endblocktrans %}
+                            </p>
                             <ul class="blog-info-link">
-                                <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                                <li><a href="#"><i class="fa fa-user"></i> {% trans 'Travel, Lifestyle' %}</a></li>
+                                <li><a href="#"><i class="fa fa-comments"></i> {% trans '03 Comments' %}</a></li>
                             </ul>
                         </div>
                     </article>
@@ -82,47 +88,47 @@
                                 </div>
                             </div>
                             <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
-                                    type="submit">Search
+                                    type="submit">{% trans 'Search' %}
                             </button>
                         </form>
                     </aside>
 
                     <aside class="single_sidebar_widget post_category_widget">
-                        <h4 class="widget_title">Category</h4>
+                        <h4 class="widget_title">{% trans 'Category' %}</h4>
                         <ul class="list cat-list">
                             <li>
                                 <a href="#" class="d-flex">
-                                    <p>Resaurant food</p>
+                                    <p>{% trans 'Restaurant food' %}</p>
                                     <p>(37)</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="d-flex">
-                                    <p>Travel news</p>
+                                    <p>{% trans 'Travel news' %}</p>
                                     <p>(10)</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="d-flex">
-                                    <p>Modern technology</p>
+                                    <p>{% trans 'Modern technology' %}</p>
                                     <p>(03)</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="d-flex">
-                                    <p>Product</p>
+                                    <p>{% trans 'Product' %}</p>
                                     <p>(11)</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="d-flex">
-                                    <p>Inspiration</p>
+                                    <p>{% trans 'Inspiration' %}</p>
                                     <p>21</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="d-flex">
-                                    <p>Health Care (21)</p>
+                                    <p>{% trans 'Health Care' %} (21)</p>
                                     <p>09</p>
                                 </a>
                             </li>
@@ -130,77 +136,77 @@
                     </aside>
 
                     <aside class="single_sidebar_widget popular_post_widget">
-                        <h3 class="widget_title">Recent Post</h3>
+                        <h3 class="widget_title">{% trans 'Recent Post' %}</h3>
                         <div class="media post_item">
                             <img src="{% static 'img/post/post_1.png'%}" alt="post">
                             <div class="media-body">
                                 <a href="single-blog.html">
-                                    <h3>From life was you fish...</h3>
+                                    <h3>{% trans 'From life was you fish...' %}</h3>
                                 </a>
-                                <p>January 12, 2019</p>
+                                <p>{% trans 'January 12, 2019' %}</p>
                             </div>
                         </div>
                         <div class="media post_item">
                             <img src="{% static 'img/post/post_2.png'%}" alt="post">
                             <div class="media-body">
                                 <a href="single-blog.html">
-                                    <h3>The Amazing Hubble</h3>
+                                    <h3>{% trans 'The Amazing Hubble' %}</h3>
                                 </a>
-                                <p>02 Hours ago</p>
+                                <p>{% trans '02 Hours ago' %}</p>
                             </div>
                         </div>
                         <div class="media post_item">
                             <img src="{% static 'img/post/post_3.png'%}" alt="post">
                             <div class="media-body">
                                 <a href="single-blog.html">
-                                    <h3>Astronomy Or Astrology</h3>
+                                    <h3>{% trans 'Astronomy Or Astrology' %}</h3>
                                 </a>
-                                <p>03 Hours ago</p>
+                                <p>{% trans '03 Hours ago' %}</p>
                             </div>
                         </div>
                         <div class="media post_item">
                             <img src="{% static 'img/post/post_4.png'%}" alt="post">
                             <div class="media-body">
                                 <a href="single-blog.html">
-                                    <h3>Asteroids telescope</h3>
+                                    <h3>{% trans 'Asteroids telescope' %}</h3>
                                 </a>
-                                <p>01 Hours ago</p>
+                                <p>{% trans '01 Hours ago' %}</p>
                             </div>
                         </div>
                     </aside>
                     <aside class="single_sidebar_widget tag_cloud_widget">
-                        <h4 class="widget_title">Tag Clouds</h4>
+                        <h4 class="widget_title">{% trans 'Tag Clouds' %}</h4>
                         <ul class="list">
                             <li>
-                                <a href="#">project</a>
+                                <a href="#">{% trans 'project' %}</a>
                             </li>
                             <li>
-                                <a href="#">love</a>
+                                <a href="#">{% trans 'love' %}</a>
                             </li>
                             <li>
-                                <a href="#">technology</a>
+                                <a href="#">{% trans 'technology' %}</a>
                             </li>
                             <li>
-                                <a href="#">travel</a>
+                                <a href="#">{% trans 'travel' %}</a>
                             </li>
                             <li>
-                                <a href="#">restaurant</a>
+                                <a href="#">{% trans 'restaurant' %}</a>
                             </li>
                             <li>
-                                <a href="#">life style</a>
+                                <a href="#">{% trans 'life style' %}</a>
                             </li>
                             <li>
-                                <a href="#">design</a>
+                                <a href="#">{% trans 'design' %}</a>
                             </li>
                             <li>
-                                <a href="#">illustration</a>
+                                <a href="#">{% trans 'illustration' %}</a>
                             </li>
                         </ul>
                     </aside>
 
 
                     <aside class="single_sidebar_widget instagram_feeds">
-                        <h4 class="widget_title">Instagram Feeds</h4>
+                        <h4 class="widget_title">{% trans 'Instagram Feeds' %}</h4>
                         <ul class="instagram_row flex-wrap">
                             <li>
                                 <a href="#">
@@ -237,7 +243,7 @@
 
 
                     <aside class="single_sidebar_widget newsletter_widget">
-                        <h4 class="widget_title">Newsletter</h4>
+                        <h4 class="widget_title">{% trans 'Newsletter' %}</h4>
 
                         <form action="#">
                             <div class="form-group">
@@ -245,7 +251,7 @@
                                        onblur="this.placeholder = 'Enter email'" placeholder='Enter email' required>
                             </div>
                             <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
-                                    type="submit">Subscribe
+                                    type="submit">{% trans 'Subscribe' %}
                             </button>
                         </form>
                     </aside>
@@ -254,5 +260,5 @@
         </div>
     </div>
 </section>
-    <!--================Blog Area =================-->
+<!--================Blog Area =================-->
 {% endblock%}

@@ -1,4 +1,4 @@
-from django.shortcuts import get_object_or_404
+from django.shortcuts import render, get_object_or_404
 from django.urls import reverse
 from django.views.generic import DetailView, ListView, CreateView
 
@@ -21,9 +21,9 @@ class PostListView(ListView):
         return qs
 
 
-# class PostDetailView(DetailView):
-#     template_name = 'blog-detail.html'
-#     model = PostModel
+class PostDetailView(DetailView):
+    template_name = 'blog-detail.html'
+    model = PostModel
 
 
 class CommentCreateView(CreateView):
