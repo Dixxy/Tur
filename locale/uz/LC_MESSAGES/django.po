@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-26 18:04+0500\n"
+"POT-Creation-Date: 2021-11-29 16:10+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -192,7 +192,6 @@ msgid "Travel, Lifestyle"
 msgstr "Sayohat turi"
 
 #: .\templates\blog.html:49
-#, fuzzy
 #| msgid "comments"
 msgid "03 Comments"
 msgstr "komentlar"
@@ -203,117 +202,115 @@ msgstr "Qidirmoq"
 
 #: .\templates\blog.html:97
 msgid "Category"
-msgstr ""
+msgstr "Turkum"
 
 #: .\templates\blog.html:101
 msgid "Restaurant food"
 msgstr ""
 
 #: .\templates\blog.html:107
-#, fuzzy
 #| msgid "Travel type"
 msgid "Travel news"
 msgstr "Sayohat turi"
 
 #: .\templates\blog.html:113
 msgid "Modern technology"
-msgstr ""
+msgstr "Zamonaviy texnologiya"
 
 #: .\templates\blog.html:119
 msgid "Product"
-msgstr ""
+msgstr "Mahsulot"
 
 #: .\templates\blog.html:125
-#, fuzzy
 #| msgid "Popular Destination"
 msgid "Inspiration"
-msgstr "Mashhur manzil"
+msgstr "Mashhur manzilфк"
 
 #: .\templates\blog.html:131
 msgid "Health Care"
-msgstr ""
+msgstr "Sog'liqni saqlash"
 
 #: .\templates\blog.html:139
 msgid "Recent Post"
-msgstr ""
+msgstr "Oxirgi xabar"
 
 #: .\templates\blog.html:144
 msgid "From life was you fish..."
-msgstr ""
+msgstr "Siz hayotdan baliq edingiz ..."
 
 #: .\templates\blog.html:146
 msgid "January 12, 2019"
-msgstr ""
+msgstr "2019 yil 12 yanvar"
 
 #: .\templates\blog.html:153
 msgid "The Amazing Hubble"
-msgstr ""
+msgstr "Ajoyib Hubble"
 
 #: .\templates\blog.html:155
 msgid "02 Hours ago"
-msgstr ""
+msgstr "02 soat oldin"
 
 #: .\templates\blog.html:162
 msgid "Astronomy Or Astrology"
-msgstr ""
+msgstr "Astronomiya yoki astrologiya"
 
 #: .\templates\blog.html:164
 msgid "03 Hours ago"
-msgstr ""
+msgstr "03 soat oldin"
 
 #: .\templates\blog.html:171
 msgid "Asteroids telescope"
-msgstr ""
+msgstr "Asteroid teleskopi"
 
 #: .\templates\blog.html:173
 msgid "01 Hours ago"
-msgstr ""
+msgstr "01 soat oldin"
 
 #: .\templates\blog.html:178
 msgid "Tag Clouds"
-msgstr ""
+msgstr "Teg bulutlari"
 
 #: .\templates\blog.html:181
 msgid "project"
-msgstr ""
+msgstr "Proekt"
 
 #: .\templates\blog.html:184
 msgid "love"
-msgstr ""
+msgstr "sevgi"
 
 #: .\templates\blog.html:187
 msgid "technology"
-msgstr ""
+msgstr "texnologiya"
 
 #: .\templates\blog.html:190
 msgid "travel"
-msgstr ""
+msgstr "sayohat"
 
 #: .\templates\blog.html:193
 msgid "restaurant"
-msgstr ""
+msgstr "restoran"
 
 #: .\templates\blog.html:196
 msgid "life style"
-msgstr ""
+msgstr "hayot tarzi"
 
 #: .\templates\blog.html:199
 msgid "design"
-msgstr ""
+msgstr "dizayn"
 
 #: .\templates\blog.html:202
-#, fuzzy
 #| msgid "Popular Destination"
 msgid "illustration"
-msgstr "Mashhur manzil"
+msgstr "Mashhur manzilar"
 
 #: .\templates\blog.html:209
 msgid "Instagram Feeds"
-msgstr ""
+msgstr "Instagram tasmalari"
 
 #: .\templates\blog.html:246
 msgid "Newsletter"
-msgstr ""
+msgstr "Axborot byulleteni
+"
 
 #: .\templates\blog.html:254 .\templates\destination_details.html:123
 msgid "Subscribe"
