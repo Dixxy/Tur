@@ -47,14 +47,15 @@
                                         <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
                                         <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
                                         <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                                        {% if request.user.is_authenticated %}
+                                        <li><a href="{% url 'auth_logout' %}">{% trans 'Log out' %}</a></li>
+                                        {% else %}
+                                        <li><a href="{% url 'auth_login' %}">{% trans 'Sign in' %}</a>
+                                            {% endif %}
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                        <div class="seach_icon">
-                            <a data-toggle="modal" data-target="#exampleModalCenter" href="#">
-                                <i class="fa fa-search"></i>
-                            </a>
                         </div>
                         <div class="col-12">
                             <div class="mobile_menu d-block d-lg-none"></div>

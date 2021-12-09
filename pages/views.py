@@ -1,5 +1,3 @@
-from django.shortcuts import render
-
 # Create your views here.
 from django.urls import reverse
 from django.views.generic import TemplateView, CreateView
@@ -29,3 +27,11 @@ class BlogView(TemplateView):
 
 class DestinationView(TemplateView):
     template_name = 'destination_details.html'
+
+
+class LoginView(TemplateView):
+    template_name = 'login.html'
+
+
+class RegisterView(TemplateView):
+    template_name = 'register.html'
