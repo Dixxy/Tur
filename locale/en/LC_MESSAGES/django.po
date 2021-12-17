@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-10 15:28+0500\n"
+"POT-Creation-Date: 2021-12-17 13:02+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -748,37 +748,32 @@ msgid "Login"
 msgstr ""
 
 #: .\templates\registration\login.html:14
-#: .\templates\registration\register.html:10
-#: .\templates\registration\register.html:16
 #: .\templates\registration\registration_form.html:15
+#: .\templates\registration\registration_form.html:16
 msgid "Username"
 msgstr ""
 
 #: .\templates\registration\login.html:23
-#: .\templates\registration\register.html:25
 #: .\templates\registration\registration_form.html:23
+#: .\templates\registration\registration_form.html:24
 msgid "Password"
 msgstr ""
 
 #: .\templates\registration\login.html:30
-#: .\templates\registration\register.html:32
 msgid "Remember me"
 msgstr ""
 
 #: .\templates\registration\login.html:36
-#: .\templates\registration\register.html:38
 msgid "Forgot Password"
 msgstr ""
 
 #: .\templates\registration\login.html:44
 #: .\templates\registration\password_change_form.html:13
-#: .\templates\registration\register.html:46
 msgid "Sign Up"
 msgstr ""
 
 #: .\templates\registration\login.html:49
 #: .\templates\registration\password_change_form.html:18
-#: .\templates\registration\register.html:51
 msgid "Sign In"
 msgstr ""
 
@@ -874,7 +869,6 @@ msgid "Management"
 msgstr ""
 
 #: .\templates\registration\password_reset_form.html:4
-#: .\templates\registration\password_reset_form.html:15
 msgid "Reset password"
 msgstr ""
 
@@ -911,7 +905,16 @@ msgid "E-mail"
 msgstr ""
 
 #: .\templates\registration\registration_form.html:27
+#: .\templates\registration\registration_form.html:28
 msgid "Confirm Password"
+msgstr ""
+
+#: .\templates\registration\registration_form.html:33
+msgid "Sign up"
+msgstr ""
+
+#: .\templates\registration\registration_form.html:38
+msgid "Back To Website"
 msgstr ""
 
 #: .\templates\registration\resend_activation_complete.html:4
